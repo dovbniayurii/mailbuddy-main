@@ -1,0 +1,185 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+
+    .uploadavatar{
+        width: 200px;
+        height: 200px;
+    }
+    
+
+    .personal { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 32px;
+
+        .personalcard {
+            width: 100%;
+            max-width: 800px;
+
+            .multiformrow{
+                >*:nth-child(1) {
+                    margin-right: 16px;
+                }
+
+                >*:nth-child(2) {
+                    margin-left: 16px;
+                }
+
+                >*:nth-child(3) {
+                    margin-left: 32px;
+                }
+            }
+        }
+    }
+
+    .password {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 32px;
+
+        .passwordcard {
+            width: 100%;
+            max-width: 800px;
+        }
+    }
+
+    .recommend{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 32px;
+
+        .recommendcard {
+            width: 100%;
+            max-width: 800px;
+
+            .recommendContent{
+                display: flex;
+                flex-direction: column;
+
+                .recommendHeadline{
+                    margin-bottom: 16px;
+                }
+
+                .recommendLink{
+                    overflow-wrap: break-word;
+                    text-align: center;
+                    margin-top: 32px;
+                    margin-bottom: 32px;
+                    color: #1677ff;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: #0f4faa;
+                    }
+                }
+
+                .recommendqrcode{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-top: 32px;
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+
+    .deleteRow{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.savebuttonrow {
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tutorialbuttonrow{
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reauthform{
+    margin-top: 16px;
+    .loginpart{
+        font-weight: 700;
+        line-height: 20px;
+        size: 14px;
+    }
+
+    .logininput{
+        background-color: white;
+        padding: 10px 14px 10px 14px;
+        border-radius: 8px;
+    }
+
+    .reautherrormsg{
+        margin-bottom: 16px;
+    }
+
+    .reauthloginbuttonrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .reauthloginbutton{
+            width: 360px;
+            height: 44px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 10px 18px 10px 18px;
+            font-weight: bold;
+        }
+    }
+
+    .deletefinaly{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+}
+
+.version {
+    margin-top: 50pt;
+    color: #D0D5DD;
+}
+
+.apikeyrow{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabcard {
+    max-width: 800px;
+}
+
+.personalrow{
+    display: flex;
+    flex-direction: row;
+}
